@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4;
+}
+
+#footer a:hover {
+    color: red;
+    text-decoration: underline;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+i {
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.box-1 {
+    width: 1200px;
+    height: 570px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 20px 0;
+    /* position: relative;  */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+}
+
+/* #box {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute
+} */
+
+#Right {
+    display: flex;
+    position: relative;
+   
+    justify-content: center;
+    align-items: center;
+    /* border: solid 3px red; */
+    box-sizing: border-box;
+    display: inline-block;
+    /* padding: 20px; */
+    
+}
+
+
+#dangnhop {
+    display: flex;
+    position: relative;
+}
+
+#dangnhop button {
+    width: 150px;
+    margin-left: 90px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#dangnhop button i {
+    color: #e4e4e4;
+    margin-left: 10px;
+}
+
+
+section .animate {
+    transition: 1s;
+    filter: blur(0);
+    opacity: 1;
+}
+
+
+section.show-animate .animate {
+    filter: blur(5px);
+    opacity: 1;
+}
+.sec-1 animate {
+    transform: scale(.2);
+}
+
+.sec-1.show-animate .animate {
+    transform: scale(1);
+}
+
+.sec-2 .animate {
+    transform: scale(1);
+}
+
+.sec-2.show-animate .animate {
+    transform:scale(0);
+}
+
+
+@media (max-width:1200px) {
+    .box-1{
+        max-width: 100%;
+        height: 110%;
+        
+    }
+
+    .col-9 > row {
+        flex-direction: column;
+    }
+    #box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dangnhop{
+        flex-direction: column;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

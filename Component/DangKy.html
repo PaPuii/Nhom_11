@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký khóa học</title>
+        <!-- Font Awesome -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+        />
+        <!-- Google Fonts -->
+        <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+        />
+        <!-- MDB -->
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="../css/Dangky.css">
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Nhom11</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarText"
+            aria-controls="navbarText"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" style="color: red; font-size: 30px;" aria-current="page" href="../index.html"
+                >LanguageLeap</a>
+              </li>
+              <li class="nav-item mt-3">
+                <div class="dropdown">
+                    <a
+                      class="btn btn-danger "
+                      href="chungtoi.html"
+                      role="button"
+                      id="dropdownMenuLink"
+                      
+                      aria-expanded="false"
+                    >
+                    Về Chúng Tôi
+                    </a>       
+                    <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Tại Sao Chọn ... ?</a></li>
+                      <li><a class="dropdown-item" href="#">Phương Pháp Học</a></li>
+                      <li><a class="dropdown-item" href="#">Cách Thức đăng ký</a></li>
+                    </ul> -->
+                  </div>
+              </li>
+              <li class="nav-item  mt-3">
+                <div class="dropdown ">
+                    <a
+                      class="btn btn-danger "
+                      href="cackhoa.html"
+                      role="button"
+                      id="dropdownMenuLink"
+                      
+                      aria-expanded="false"
+                    >
+                    Các Khóa Học
+                    </a>
+                  
+                    <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Tiếng Anh giao tiếp phản xạ</a></li>
+                      <li><a class="dropdown-item" href="#">Khóa học tiếng Anh cho trẻ em online (KidTalk)</a></li>
+                      <li><a class="dropdown-item" href="#">Khóa học tiếng Anh giao tiếp thực hành Online (CE)</a></li>
+                    </ul> -->
+                  </div>
+              </li>
+              <li class="nav-item  mt-3">
+                <div class="dropdown ">
+                    <a
+                      class="btn btn-danger "
+                      href="giangvien.html"
+                      role="button"
+                      id="dropdownMenuLink"
+                      
+                      aria-expanded="false"
+                    >
+                      Các giảng viên
+                    </a>
+                  
+                    <!-- <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Blog Học Tiếng Anh</a></li>
+                      <li><a class="dropdown-item" href="#">Chương trình ưu đãi</a></li>
+                      <li><a class="dropdown-item" href="#">Lời khuyên học tiếng Anh</a></li>
+                    </ul> -->
+                  </div>
+              </li>
+            </ul>
+            <span class="navbar-text mb-3">
+                <a class=" " href="DangKy.html">
+                    <i class="fas fa-calendar-check me-1  mt-4"></i>
+                    <span class="me-5" >Đăng ký học thử</span>
+                </a>
+                <!-- <a class="link-secondary me-4" href="#">
+                    <i class="fas fa-phone me-1 mt-4"></i>
+                    <span>0789 156 257</span>                                 -->
+            </span>
+          </div>
+        </div>
+    </nav>
+
+    <section class="sec-1 ">
+        <h1 class="">Đăng Kí Học Thử Miễn Phí</h1>
+    </section>
+
+    <section class="sec-2 "> 
+        <main class="">
+            <div class="container">
+                <div class="box-1">
+                    <div class="row p-3" id="box">
+                        <div class="col-9 py-3">
+                            <div class="container py-3">
+                                <form action=""  class="was-validated">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div class="form-outline">
+                                                <input type="text" id="formControlLg" class="form-control form-control-lg" required />
+                                                <label class="form-label" for="formControlLg">Họ và Tên</label>
+                                              </div>
+                                              
+                                              <div class="form-outline mt-3">
+                                                <input type="email" id="formControlDefault" class="form-control" required />
+                                                <label class="form-label" for="typeEmail">Email</label>
+                                              </div>
+                                              
+                                              <div class="form-outline mb-4">
+                                                <input type="number" id="form6Example6" class="form-control" />
+                                                <label class="form-label" for="form6Example6">Chọn lớp học</label>
+                                              </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-outline">
+                                                <input type="date" id="formControlLg" class="form-control form-control-lg" required/>
+                                                <label class="form-label" for="formControlLg">Ngày sinh</label>
+                                              </div>
+                                              
+                                              <div class="form-outline  mt-3">
+                                                <input type="text" id="formControlDefault" class="form-control" required/>
+                                                <label class="form-label" for="formControlDefault">Số điện thoại</label>
+                                              </div>
+                                              
+                                              <div class="form-outline  mt-3">
+                                                <input type="text" id="formControlSm" class="form-control form-control" required />
+                                                <label class="form-label" for="formControlSm">Nhập nội dung Tin nhắn</label>
+                                              </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-outline mb-4">
+                                        <textarea class="form-control" id="form6Example7" rows="2"></textarea>
+                                        <label class="form-label" for="form6Example7">Tại sao chọn ?</label>
+                                      </div>
+    
+                                    <div class="mt-5 ms-4">
+                                        Bạn biết LanguageLeap qua kênh thông tin nào:
+                                    </div>
+    
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <!-- Default checkbox -->
+                                                <div class="form-check mt-4">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                                    <label class="form-check-label" for="flexCheckDefault">Tìm kiếm trên Google</label>
+                                                </div>
+                                                
+                                                <!-- Checked checkbox -->
+                                                <div class="form-check mt-4">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
+                                                    <label class="form-check-label" for="flexCheckChecked">Fanpage Facebook </label>
+                                                </div>
+                                            </div>
+                                            <div class="col">
+                                                   <!-- Default checkbox -->
+                                                   <div class="form-check mt-4">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                                    <label class="form-check-label" for="flexCheckDefault">Bạn bè giới thiệu</label>
+                                                </div>
+                                                
+                                                <!-- Checked checkbox -->
+                                                <div class="form-check mt-4">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
+                                                    <label class="form-check-label"  type="checkbox" value="" id="flexCheckChecked" checked >Khác (Tờ rơi, Forum, Banner…)</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="container mt-5" id="dangnhop">
+                                        Tôi đã đọc và đồng ý với các quy định và 
+                                        chính sách sử dụng dịch vụ tại LanguageLeap.vn 
+                                        
+                                            <button type="submit" class="btn btn-danger btn-block">Đăng ký <i class="fas fa-arrow-right"></i></button>
+                                    
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                        <div class="col-3 mt-5" id="Right">
+                            <i class="fas fa-circle-check mb-2"></i> Học thử miễn phí <br>
+                            <i class="fas fa-circle-check mb-2"></i> Tương tác trực tuyến 1 thầy - 1 trò <br>
+                            <i class="fas fa-circle-check mb-2"></i> Giáo viên bản ngữ có trình độ <br>
+                            <i class="fas fa-circle-check mb-2 "></i> Khi vào học chính thức bạn sẽ nhận được giáo trình <br> 
+                            <i class="fas fa-circle-check mb-2"></i> Những gì bạn cần: 1 máy tính kết nối internet, microphone, loa và webcam (tùy chọn) 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white " id="footer">
+        <!-- Grid container -->
+        <div class="container">
+        <!-- Section: Social media -->
+        <section class="p-3">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+            ></a>
+    
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+            ></a>
+    
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+            ></a>
+    
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+            ></a>
+    
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+            ></a>
+    
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+            ></a>
+        </section>
+        <!-- Section: Social media -->
+    
+        <!-- Section: Form -->
+        <section class="">
+            <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <!-- <div class="col-auto">
+                <p class="pt-2" style="font-size: 40px;">
+                    <strong>Nhom11</strong>
+                </p>
+                </div> -->
+                <!--Grid column-->
+    
+                <!--Grid column-->
+                
+                </div>
+                <!--Grid column-->
+    
+                <!--Grid column-->
+                <div class="col-auto">
+                <!-- Submit button -->
+                <a href="./DangKy.html">
+                    <button type="button" class="btn btn-danger mb-4" 
+                    style=" height: 50px;">Đăng ký học thử</button>
+                </a>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+    
+    
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+            <!--Grid column-->
+            <!-- <div class="container">
+                
+                Tại E-Talk bạn sẽ học tiếng Anh online với 100% giáo viên nước ngoài,
+                tương tác hai chiều qua các lớp học trực tuyến 1 kèm 1.
+                Chúng tôi tin tưởng rằng bạn sẽ sử dụng tiếng Anh thành thạo nhanh chóng với chi phí thấp nhất.
+            </div> -->
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-danger">Về chúng tôi</h5>
+    
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="../Component/chungtoi.html" class="text-white">Giới thiệu</a>
+                </li>
+                <li>
+                    <a href="../Component/cackhoa.html" class="text-white">Các Khóa Học</a>
+                </li>
+                <li>
+                    <a href="../Component/giangvien.html" class="text-white">Giảng Viên</a>
+                </li>
+                <!-- <li>
+                    <a href="#!" class="text-white">Học phí</a>
+                </li> -->
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-danger">Thông tin</h5>
+    
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="../Component/hocphi.html" class="text-white">Học Phí</a>
+                </li>
+                <li>
+                    <a href="../Component/FAQ-page1.html" class="text-white">Câu hỏi thường gặp</a>
+                </li>
+                <li>
+                    <a href="../Component/dịch-vụ-Edting.html" class="text-white">Dịch Vụ Edting</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase text-danger">Liên hệ</h5>
+    
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-white"><i class="fas fa-phone"></i> 
+                    <span> 0999 999 999</span></a>
+                </li>
+                <li>
+                    <a href="#!" class="text-white"><i class="fas fa-at"></i>
+                    <span> daihocvinh@gmail.com</span></a>
+                </li>
+                <li>
+                    <a href="#!" class="text-white"><i class="fas fa-location-dot"></i>
+                    <span>Dai Hoc Vinh</span></a>
+                </li>
+            </div>
+            <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="#">Nhom11</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.js"
+    ></script>
+    <script src="../Javascript/app.js"></script>
+</body>
+</html>
